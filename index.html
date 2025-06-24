@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GiliGames</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <!-- menu hamburguer somente para mobile -->
+        <button class="menu-hamburguer" aria-label="Abrir menu de navegação">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <!-- cabeçalho navegável do site -->
+        <nav class="header">
+            <a href="lol.html">Lol</a>
+            <a href="#">Valorant</a>
+            <a href="#">Mobile Legends</a>
+            <a href="#">Call of duty</a>
+            <a href="#">Overwatch</a>
+            <a href="#">Fifa</a>
+            <a href="#">Mais</a>
+            <!-- botão de carrinho -->
+            <button class="cart-button">
+                <img src="img/Shopping Cart.png" alt="carrinho de compras">
+            </button>
+            <a href="#">Perfil</a>
+        </nav>
+        <div class="bandeira">
+            <img src="img/bandeira Brasil 1.png" alt="Bandeira do Brasil">
+        </div>
+    </header>
+    <div class="menu-overlay" onclick="toggleMenu()"></div>
+
+    <main>
+        <!-- imagem de ilustração -->
+        <div class="banner">
+            <img src="img/banner img.png" alt="">
+        </div>
+        <div class="texto_banner">
+        <h1>
+            Compre moedas e créditos nos seus jogos <br>
+            favoritos e turbine sua gameplay
+        </h1>
+        </div>
+        <!-- carrossel de imagens animadas -->
+        <div class="carrossel">
+            <div class="slides">
+                <img src="img/lol 1.png" alt="imagem do jogo lol">
+                <img src="img/valorant 1.png" alt="imagem do jogo valorant">
+                <img src="img/overwatch 1.png" alt="imagem do jogo overwatch">
+                <!-- cópia das imagens para loop infinito -->
+                 <img src="img/lol 1.png" alt="imagem do jogo lol duplicada">
+                 <img src="img/valorant 1.png" alt="imagem do jogo valorant duplicada">
+                 <img src="img/overwatch 1.png" alt="imagem do jogo overwatch duplicada">
+            </div>
+        </div>
+    </main>
+     <!-- rodapé do site, com informações de contato e links úteis -->
+    <footer>
+        <!-- classe para organizar as classes nav em colunas -->
+         <div class="footer-content">
+        <nav class="politicas">
+            <h2>Políticas</h2>
+            <a href="#">Termos e condições</a>
+            <a href="#">Política de privacidade</a>
+            <a href="#">Perguntas frequentes</a>
+            <a href="#">Política de cookies</a>
+        </nav>
+
+        <nav class="sobre">
+            <h2>Sobre nós</h2>
+            <a href="#">Quem somos</a>
+            <a href="contato.html">Contato</a>
+        </nav>
+
+        <div class="suporte">
+            <h2>Suporte</h2>
+            <h3>Suporte@loremipsum.com</h3>
+        </div>
+         </div>
+
+        <div class="footer-copy">
+        <h2>GiliGames &copy; 2025</h2>
+        </div>
+
+    </footer>
+    <script src="js/index.js"></script>
+</body>
+</html>

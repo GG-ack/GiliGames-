@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - GiliGames</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+    body, input, textarea, button, h1, h2, h3, label {
+      font-family: 'Inter', sans-serif;
+    }
+    .contato-container {
+      max-width: 700px;
+      margin: 60px auto 0 auto;
+      background: none;
+      padding: 0 0 40px 0;
+    }
+    .contato-titulo {
+      color: #ffd700;
+      font-size: 1.5rem;
+      margin-bottom: 32px;
+      font-weight: 400;
+    }
+    .contato-form {
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+    }
+    .contato-form input,
+    .contato-form textarea {
+      background: #d3d3d3;
+      border: none;
+      border-radius: 2px;
+      padding: 14px 18px;
+      font-size: 1rem;
+      color: #232323;
+      margin-bottom: 0;
+      width: 100%;
+      resize: none;
+    }
+    .contato-form textarea {
+      min-height: 180px;
+      max-width: 100%;
+    }
+    .contato-form input::placeholder,
+    .contato-form textarea::placeholder {
+      color: #666;
+      font-size: 1rem;
+    }
+    @media (max-width: 800px) {
+      .contato-container {
+        max-width: 98vw;
+        padding: 0 2vw 24px 2vw;
+      }
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="header">
+            <a href="lol.html">Lol</a>
+            <a href="#">Valorant</a>
+            <a href="#">Mobile Legends</a>
+            <a href="#">Call of duty</a>
+            <a href="#">Overwatch</a>
+            <a href="#">Fifa</a>
+            <a href="#">Mais</a>
+            <button class="cart-button">
+                <img src="img/Shopping Cart.png" alt="carrinho de compras">
+            </button>
+            <a href="#">Perfil</a>
+        </nav>
+        <div class="bandeira">
+            <img src="img/bandeira Brasil 1.png" alt="Bandeira do Brasil">
+        </div>
+    </header>
+    <main>
+        <div class="contato-container">
+            <h2 class="contato-titulo">Entre em contato conosco</h2>
+            <form class="contato-form">
+                <input type="text" placeholder="Seu nome:" required>
+                <input type="email" placeholder="Seu e-mail:" required>
+                <textarea placeholder="Digite sua mensagem:" required></textarea>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-content">
+            <nav class="politicas">
+                <h2>Políticas</h2>
+                <a href="#">Termos e condições</a>
+                <a href="#">Política de privacidade</a>
+                <a href="#">Perguntas frequentes</a>
+                <a href="#">Política de cookies</a>
+            </nav>
+            <nav class="sobre">
+                <h2>Sobre nós</h2>
+                <a href="#">Quem somos</a>
+                <a href="contato.html">Contato</a>
+            </nav>
+            <div class="suporte">
+                <h2>Suporte</h2>
+                <h3>suporte@loremipsum.com</h3>
+            </div>
+        </div>
+        <div class="footer-copy">
+            <h2>GiliGames &copy; 2025</h2>
+        </div>
+    </footer>
+</body>
+</html> 
