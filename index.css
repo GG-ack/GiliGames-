@@ -248,6 +248,7 @@ footer {
     nav.header a, nav.header button {
         color: #fff !important;
         border: none;
+        border-top: none !important;
         border-bottom: 1px solid #333;
         background: none;
         font-family: Inter, sans-serif;
@@ -257,6 +258,7 @@ footer {
         width: 100%;
         margin: 0;
         padding: 12px 0;
+        padding-left: 0 !important;
     }
     nav.header a:hover, nav.header button:hover {
         color: #ffd700 !important;
@@ -328,6 +330,9 @@ footer {
     }
     .politicas a, .sobre a, .suporte h3 {
         margin: 14px 0;
+    }
+    .slides {
+        animation-duration: 20s !important;
     }
 }
 
